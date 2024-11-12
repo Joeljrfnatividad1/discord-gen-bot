@@ -2,6 +2,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const config = require('./config.json');
+require('./keep_alive.js');
 const CatLoggr = require('cat-loggr');
 
 // Functions
